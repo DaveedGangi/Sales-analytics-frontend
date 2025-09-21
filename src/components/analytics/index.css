@@ -1,0 +1,76 @@
+
+
+.analytics{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    min-height:100vh;
+    flex-wrap: wrap;
+    
+    height: 100%;
+    padding:8px;
+    margin:0px;
+    background-image:linear-gradient(to bottom, green,pink,yellow);
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.loading{
+    background-color: brown;
+    color:aliceblue;
+    font-size: medium;
+    font-weight: 600;
+    width:200px;
+    height:44px;
+    text-align: center;
+    border-radius: 12px;
+    border:0px;
+    
+}
+.getAnalytic{
+    background-color: blueviolet;
+    color:beige;
+    font-size: medium;
+    font-weight: 600;
+    width:200px;
+    height:44px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+    border:0px;
+}
+.getAnalytic:hover{
+    background-color: blue;
+}
+
+input{
+    height:34px;
+    width:196px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+
+.download-button{
+    background-color: burlywood;
+    color:crimson;
+    font-size: medium;
+    font-weight: 600;
+    width:200px;
+    height:44px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+    border:0px;
+    margin-top:22px;
+    margin-bottom: 22px;
+    
+}
+.download-button:hover{
+    background-color: chocolate;
+    color:aliceblue;
+}
